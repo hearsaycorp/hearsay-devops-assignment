@@ -1,0 +1,17 @@
+name: Build, lint and test the solution
+
+on: []
+
+jobs:
+  test-and-lint:
+    runs-on: ubuntu-latest
+    name: Job to lint and test the solution
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Lint with Flake8
+        uses: ./.github/actions/lint
+      - name: Test
+        uses: ./.github/actions/test
+  build:
+    # write your workflow steps here
