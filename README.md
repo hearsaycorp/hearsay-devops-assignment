@@ -1,8 +1,8 @@
-# Hearsay DevOps Assignment
+# Yext DevOps Assignment
 
 ## Introduction
 
-Welcome to the DevOps assignment part of your Hearsay journey! In this repo we
+Welcome to the DevOps assignment part of your Yext journey! In this repo we
 present you with a small set of tasks that will help us assess your skill level
 with various tools and technologies.
 
